@@ -20,3 +20,4 @@ go mod tidy
 
 ## Inf
 - External function modules are writing using it first letter Upercase;
+- Every variable is already initiated, strings with "", and numbers with 0
