@@ -40,6 +40,12 @@ func main() {
 	// make( type of array, size, max capacity )
 	slice3 := make([]float32, 10, 15)
 	fmt.Println(slice3)
-	fmt.Println(len(slice3))                 // lenght
-	fmt.Sprintf("capacity: %d", cap(slice3)) // capacity
+	fmt.Println(len(slice3)) // lenght
+	fmt.Println(cap(slice3)) // capacity
+
+	slice3 = append(slice3, 12.5)
+	fmt.Println(slice3)
+	fmt.Println(len(slice3)) // lenght
+	fmt.Println(cap(slice3)) // capacity
+
 }
