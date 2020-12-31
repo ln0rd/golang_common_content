@@ -3,7 +3,7 @@ package main
 // importing external and internal packages
 import (
 	"fmt"
-	"modulo/helper"
+	"helper"
 
 	"github.com/badoux/checkmail"
 )
